@@ -1,0 +1,30 @@
+.wrapper {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  padding: 1px;
+  background: var(--card-border);
+  transition: background var(--transition);
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: -50%;
+    background: conic-gradient(from 0deg, transparent, var(--accent), transparent, var(--accent-secondary), transparent);
+    animation: borderRotate 4s linear infinite;
+    opacity: 0;
+    transition: opacity var(--transition);
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  background: var(--card-bg);
+  border-radius: calc(var(--radius-lg) - 1px);
+  height: 100%;
+}
