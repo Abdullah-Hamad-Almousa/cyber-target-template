@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { Check, Image as ImageIcon } from 'lucide-react';
+import { Check } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import styles from './WhyUs.module.scss';
@@ -95,11 +95,11 @@ export default function WhyUs({ language }: WhyUsProps) {
 
         <div className={styles.content}>
           <div className={styles.image}>
-            <div className={styles.placeholder}>
-              <ImageIcon size={40} style={{ opacity: 0.4 }} />
-              <span>why-us.jpg</span>
-              <span style={{ fontSize: '0.8125rem', opacity: 0.5 }}>800 x 500</span>
-            </div>
+            <img
+              src="/images/why-us.jpeg"
+              alt="Why choose Cyber Target"
+              className={styles.imageImg}
+            />
           </div>
 
           <ul className={styles.list}>

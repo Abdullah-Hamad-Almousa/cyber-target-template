@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { ArrowRight, Activity } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import ParticleCanvas from '@/components/ParticleCanvas/ParticleCanvas';
@@ -101,11 +101,11 @@ export default function Hero({ language }: HeroProps) {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          <div className={styles.imagePlaceholder}>
-            <Activity size={40} style={{ opacity: 0.4 }} />
-            <span>hero-soc.jpg</span>
-            <span style={{ fontSize: '0.8125rem', opacity: 0.5 }}>1200 x 600</span>
-          </div>
+          <img
+            src="/images/hero-soc.jpeg"
+            alt="Cybersecurity operations center"
+            className={styles.imageImg}
+          />
         </motion.div>
       </div>
     </section>
