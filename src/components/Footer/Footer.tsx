@@ -46,18 +46,18 @@ export default function Footer({ language }: FooterProps) {
             <h4>{isAr ? 'اتصل بنا' : 'Contact'}</h4>
             <ul>
               <li>
-                <a href="mailto:contact@cybertarget.example" className={styles.contactLink}>
+                <a href="mailto:nawaf.h@cybertarget.tech" className={styles.contactLink}>
                   <Mail size={16} />
-                  <span dir="ltr">contact@cybertarget.example</span>
+                  <span dir="ltr">nawaf.h@cybertarget.tech</span>
                 </a>
               </li>
               <li>
                 <Phone size={16} />
-                <span dir="ltr">+1 (555) 000-0000</span>
+                <span dir="ltr">0539191969</span>
               </li>
               <li>
                 <MapPin size={16} />
-                <span>{isAr ? 'نيويورك، الولايات المتحدة' : 'New York, NY'}</span>
+                <span>{isAr ? 'الرياض، المملكة العربية السعودية' : 'Riyadh, Saudi Arabia'}</span>
               </li>
             </ul>
           </div>

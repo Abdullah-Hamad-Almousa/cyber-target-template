@@ -71,8 +71,8 @@ export default function ContactForm({ language }: ContactFormProps) {
             <p className={styles.emailText}>
               {isAr ? 'تواصل معنا عبر البريد الإلكتروني' : 'Reach us at'}
             </p>
-            <MagneticButton variant="primary" href="mailto:example@email.com">
-              <span dir="ltr">example@email.com</span>
+            <MagneticButton variant="primary" href="mailto:nawaf.h@cybertarget.tech">
+              <span>{isAr ? 'اتصل بنا' : 'Contact Us'}</span>
             </MagneticButton>
           </div>
         </GlassCard>
