@@ -2,6 +2,12 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+To run:
+npm run dev
+
+To build:
+npm run build
+
 ![Hero SOC](./images/hero-soc.jpeg)
 
 ![Why Us](./images/why-us.jpeg)
