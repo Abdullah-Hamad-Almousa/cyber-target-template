@@ -49,7 +49,7 @@ export default function Navigation({
     { href: '#services', labelEn: 'Services', labelAr: 'الخدمات' },
     { href: '#why-us', labelEn: 'Why Us', labelAr: 'لماذا نحن' },
     { href: '#stats', labelEn: 'Impact', labelAr: 'التأثير' },
-    { href: 'mailto:nawaf.h@cybertarget.tech', labelEn: 'Contact', labelAr: 'اتصل بنا' },
+    { href: 'mailto:info@cybertarget.tech', labelEn: 'Contact', labelAr: 'اتصل بنا' },
   ];
 
   return (
@@ -94,7 +94,7 @@ export default function Navigation({
             >
               <span className={styles.langLabel}>{language === 'ar' ? 'EN' : 'AR'}</span>
             </button>
-            <a href="mailto:nawaf.h@cybertarget.tech" className={styles.cta} data-hover>
+            <a href="mailto:info@cybertarget.tech" className={styles.cta} data-hover>
               <span>{language === 'ar' ? 'اتصل بنا' : 'Contact Us'}</span>
             </a>
             <button

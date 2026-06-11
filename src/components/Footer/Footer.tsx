@@ -46,9 +46,9 @@ export default function Footer({ language }: FooterProps) {
             <h4>{isAr ? 'اتصل بنا' : 'Contact'}</h4>
             <ul>
               <li>
-                <a href="mailto:nawaf.h@cybertarget.tech" className={styles.contactLink}>
+                <a href="mailto:info@cybertarget.tech" className={styles.contactLink}>
                   <Mail size={16} />
-                  <span dir="ltr">nawaf.h@cybertarget.tech</span>
+                  <span dir="ltr">info@cybertarget.tech</span>
                 </a>
               </li>
               <li>
